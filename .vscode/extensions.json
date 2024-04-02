@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "yzhang.markdown-all-in-one", // nicer markdown support
+    "esbenp.prettier-vscode", // prettier plugin
+    "dbaeumer.vscode-eslint", // eslint plugin
+    "bradlc.vscode-tailwindcss", // hinting / autocompletion for tailwind
+    "ban.spellright", // Spell check for docs
+    "fabianlauer.vs-code-xml-format" // xml formatter
+  ]
+}

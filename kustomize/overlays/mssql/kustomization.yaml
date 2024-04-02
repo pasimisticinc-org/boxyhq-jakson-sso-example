@@ -1,0 +1,15 @@
+---
+bases:
+  - ../../base
+  - ../../base/services
+  - ../dbs/mssql
+
+resources:
+  - ./secrets.yaml
+
+commonLabels:
+  jacksondev: '1'
+
+images:
+  - name: boxyhq/jackson
+    newTag: 1.12.0

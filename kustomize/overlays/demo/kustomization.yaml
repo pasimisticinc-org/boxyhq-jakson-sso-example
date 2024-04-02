@@ -1,0 +1,15 @@
+---
+bases:
+  - ../../base
+  - ../../base/migration
+
+resources:
+  - ./secrets.yaml
+
+patches:
+  - ./jackson-deployment.yaml
+  - ./migratepg-job.yaml
+
+images:
+  - name: boxyhq/jackson
+    newTag: 1.21.5

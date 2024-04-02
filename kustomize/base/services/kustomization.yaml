@@ -1,0 +1,7 @@
+bases:
+  - ./internal
+
+resources:
+  - ./jackson-service.yaml
+
+namespace: default
